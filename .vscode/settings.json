@@ -1,0 +1,21 @@
+{
+    "python.linting.enabled": true,
+    "[jsonc]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "python.linting.pylintEnabled": true,
+
+   
+
+    "python.linting.pylintUseMinimalCheckers": false,
+
+    "python.linting.pylintArgs": [
+    "--load-plugins",
+    "pylint_flask_sqlalchemy, pylint_flask",
+    "--init-hook"
+    ]
+}
