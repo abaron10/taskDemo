@@ -37,3 +37,11 @@ def done(id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+# try:
+#         sess.commit()
+#     except:
+#         sess.rollback()
+#     finally:
+#         sess.close()
